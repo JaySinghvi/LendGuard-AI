@@ -1,4 +1,4 @@
-# Analyzing Credit Risk
+# LendGuard AI
 
 A two-part project on predicting loan default risk from applicant financial data:
 
@@ -56,8 +56,6 @@ Set an `ANTHROPIC_API_KEY` (e.g. in `App/.Renviron`) to enable AI-generated deci
 shiny::runApp("App")
 ```
 
-**Note:** `App/.Renviron` is a local secrets file and should never be committed to version control.
-
 ## Repository Structure
 
 ```
@@ -67,5 +65,4 @@ App/
   app.R                       Shiny app source
   lendguard_xgb.model         Trained XGBoost booster
   lendguard_meta.rds          Feature metadata, factor levels, decision threshold
-  .Renviron                   Local environment variables (not for version control)
 ```
